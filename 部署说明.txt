@@ -1,0 +1,10 @@
+这是“诗境”前端静态上传包。
+
+上传服务器时，只需要上传本文件夹内的全部内容。
+不需要上传 control-panel、frontend、node_modules、package.json。
+
+图片和视频已从 frontend/src/assets 自动复制到 assets 目录。
+古诗数据已在构建时打包进前端页面。
+
+如果本地控制面板新增或修改了古诗，请重新运行：npm run build:upload
+然后重新上传 upload_frontend 文件夹内容。
